@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Heebo;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 20px 0;
+}
+.header {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.header a {
+  font-weight: 500;
+  padding: 16px 16px 33px;
+  line-height: 29.38px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+#main {
+  padding: 50px 0;
+}
+.main-text h1 {
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.main-text p {
+  width: 500px;
+  line-height: 23.5px;
+  padding-bottom: 13px;
+  font-size: 16px;
+}
+
+.main {
+  height: 216px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.main-text button {
+  border: none;
+  color: #fff;
+  font-size: 10px;
+  height: 35px;
+  width: 115px;
+  background-color: red;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29.38px;
+}
+
+#post {
+  padding: 40px 0;
+  background-color: #edf7fa;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.tab h1 {
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.tab {
+  justify-content: space-between;
+  display: flex;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.box {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+}
+
+.box-text {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 400;
+  line-height: 23.5px;
+  font-size: 16px;
+}
+
+.box h1 {
+  padding: 12px 26px;
+  text-align: start;
+  font-size: 26px;
+  line-height: 38.19px;
+  color: #21243d;
+  font-weight: 700;
+}
+
+.box h2 {
+  font-size: 18px;
+  color: #21243d;
+  line-height: 26.44px;
+  padding-left: 40px;
+}
+
+.box span {
+  padding: 0 10px;
+}
+
+#featured {
+  padding: 40px 0;
+}
+.featured {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.block {
+  display: flex;
+  gap: 15px;
+}
+.featured-date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#socseti {
+  padding: 80px 0;
+}
+
+.socseti {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.socseti-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 38px;
+}
+
+.qqqq {
+  width: 62px;
+  height: 30px;
+  background-color: #142850;
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 19px;
+}
+
+.featured-date h6 {
+  color: #8695a4;
+  font-size: 20px;
+  line-height: 29.38px;
+}
